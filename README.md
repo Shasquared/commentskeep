@@ -6,7 +6,7 @@ A Chrome extension to bookmark, tag, and search YouTube comments.
 Click the bookmark icon next to the Reply button on any YouTube comment to save it.
 
 ## Install
-1. [Download the zip](./commentkeep.zip)
+1. [Download the zip](./commentskeep.zip)
 2. Unzip it
 3. Open Chrome, Vivaldi, Opera, or any chromium based browser and go to `chrome://extensions`
 4. Enable **Developer mode** (top right toggle)
