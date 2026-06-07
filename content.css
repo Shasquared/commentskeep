@@ -1,0 +1,65 @@
+.ck-bookmark-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  border-radius: 50%;
+  color: #909090;
+  transition: color 0.15s, background 0.15s;
+  margin-left: 2px;
+  vertical-align: middle;
+  flex-shrink: 0;
+  padding: 0;
+}
+
+.ck-bookmark-btn:hover {
+  background: rgba(0,0,0,0.06);
+  color: #e8272b;
+}
+
+html[dark] .ck-bookmark-btn:hover,
+ytd-app[dark] .ck-bookmark-btn:hover {
+  background: rgba(255,255,255,0.1);
+  color: #ff4444;
+}
+
+.ck-bookmark-btn[data-saved="true"] {
+  color: #e8272b;
+}
+
+html[dark] .ck-bookmark-btn[data-saved="true"],
+ytd-app[dark] .ck-bookmark-btn[data-saved="true"] {
+  color: #ff4444;
+}
+
+.ck-toast {
+  position: fixed;
+  bottom: 28px;
+  left: 50%;
+  transform: translateX(-50%) translateY(10px);
+  background: rgba(28,28,30,0.92);
+  color: #fff;
+  font-family: -apple-system, 'SF Pro Text', 'Helvetica Neue', sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  padding: 9px 18px;
+  border-radius: 20px;
+  z-index: 99999;
+  opacity: 0;
+  transition: opacity 0.2s, transform 0.2s;
+  pointer-events: none;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+  white-space: nowrap;
+  letter-spacing: -0.01em;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.ck-toast--show {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}
