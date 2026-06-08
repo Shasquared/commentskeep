@@ -22,4 +22,4 @@ Click the bookmark icon next to the Reply button on any YouTube comment to save 
 - Jump back to the exact video moment
   
 ## About
-Designed and built by [Shashank](https://shashank.framer.media)
+Designed and built by [Shashank.](https://shashank.framer.media)
